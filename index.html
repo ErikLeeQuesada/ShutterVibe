@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShutterVibe Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Send+Flowers&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container d-flex align-items-center">
+      <a class="navbar-brand" href="#"><img src="Logo.png" alt="ShutterVibe Logo" /></a>
+      <div class="d-lg-none nav-icon me-2" id="mobilePortfolioGridIcon"><i class="bi bi-grid-3x3-gap"></i></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gear">Gear</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="d-none d-lg-block nav-icon ms-2" id="portfolioGridIcon"><i class="bi bi-grid-3x3-gap"></i></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="video-bg"><video src="Background footage.mp4" autoplay muted loop playsinline></video><div class="video-overlay"></div></div>
+    <div class="hero-content">
+      <img src="ShutterVibe1.gif" alt="ShutterVibe Logo" class="display-4" style="max-width: 100%; height: auto;">
+      <p class="lead">Capturing moments, one shot at a time.</p>
+      <a href="#portfolio" class="btn btn-light btn-lg mt-3">View Portfolio</a>
+    </div>
+  </section>
+
+  <!-- Portfolio Gallery -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">My Work</h2>
+      <div class="row g-3 gallery">
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1727188211249-1e03a7da60a3?q=80&w=2752&auto=format&fit=crop" alt="Portrait"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1611679099138-65bc8ab31945?q=80&w=2940&auto=format&fit=crop" alt="Wedding"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1659808908067-018a9380896a?q=80&w=3132&auto=format&fit=crop" alt="Landscape"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1749456289357-4e5cbffe9fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Beachfront"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1739499585784-a4f38d2ea3e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cityscape"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1749482843703-3895960e7d63?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Notebook"></div>
+        <div class="col-md-4"><img src="https://plus.unsplash.com/premium_photo-1747831949491-120b4d7ea4d6?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Foodtruck"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1749225667069-f7d8f585fa26?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="EuroStreet"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1749389372917-f63d1e0d38bb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="StreetCar"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1744400363852-d2eb4908b9a8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="JapaneseRestaraunt"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1744840281929-e67c2276a874?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="BeautifulTree"></div>
+        <div class="col-md-4"><img src="https://images.unsplash.com/photo-1748924388605-fe7da3657563?q=80&w=2018&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TreeGreenery"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gear Section -->
+  <section id="gear" class="gear-section">
+    <div class="container">
+      <h2 class="text-center section-title">My Gear</h2>
+      <div class="row g-4 justify-content-center">
+        <!-- Canon SL2 -->
+        <div class="col-12 col-lg-6">
+          <div class="card gear-card mb-4">
+            <div class="card-body text-center">
+              <img src="https://4.img-dpreview.com/files/p/E~TS940x788~articles/0885796854/793A5911.jpeg" alt="Canon EOS Rebel SL2">
+              <h3>Canon EOS Rebel SL2</h3>
+              <ul class="list-unstyled">
+                <li>Sensor: 24.2MP APS-C CMOS</li>
+                <li>Processor: DIGIC 7</li>
+                <li>ISO Range: 100–25600</li>
+                <li>Video: Full HD 1080p</li>
+                <li>Screen: 3" Vari-angle touchscreen</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Fujifilm X-T30 -->
+        <div class="col-12 col-lg-6">
+          <div class="card gear-card">
+            <div class="card-body text-center">
+              <img src="https://i.ytimg.com/vi/rwa4XWMbW1w/maxresdefault.jpg" alt="Fujifilm X-T30">
+              <h3>Fujifilm X-T30</h3>
+              <ul class="list-unstyled">
+                <li>Sensor: 26.1MP X-Trans CMOS 4</li>
+                <li>Processor: X-Processor 4</li>
+                <li>ISO Range: 160–12800 (expandable)</li>
+                <li>Video: 4K UHD</li>
+                <li>AF Points: 425-point hybrid AF</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section id="stats" class="stats py-5 bg-light">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4"><div class="card"><h3 class="counter" data-target="500">0</h3><p>Sessions</p></div></div>
+        <div class="col-md-4"><div class="card"><h3 class="counter" data-target="300">0</h3><p>Happy Clients</p></div></div>
+        <div class="col-md-4"><div class="card"><h3 class="counter" data-target="120000">0</h3><p>Photos Taken</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="https://images.unsplash.com/photo-1614204424926-196a80bf0be8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Photographer Portrait" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6">
+          <h3 class="mb-4">Capturing Life's Beautiful Moments</h3>
+          <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Contact Me</h2>
+      <p>Get in touch to book your next session.</p>
+      <!-- Contact Form -->
+      <form id="contactForm" action="#" method="post" class="mx-auto" style="max-width:600px;">
+        <div class="mb-3 text-start">
+          <label for="name" class="form-label text-white">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3 text-start">
+          <label for="email" class="form-label text-white">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3 text-start">
+          <label for="subject" class="form-label text-white">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+        <div class="mb-3 text-start">
+          <label for="message" class="form-label text-white">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-light">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-transparent border-0">
+        <div class="lightbox-nav">
+          <button class="lightbox-nav-btn prev-btn" id="prevImage"><i class="bi bi-chevron-left"></i></button>
+          <button class="lightbox-nav-btn next-btn" id="nextImage"><i class="bi bi-chevron-right"></i></button>
+        </div>
+        <img src="" class="img-fluid w-100" id="lightboxImage" />
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>ShutterVibe</h3>
+          <p>Capturing moments, one shot at a time.</p>
+          <p>Copyright © 2025 ShutterVibe. All rights reserved. (not a real company)</p>
+        </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
